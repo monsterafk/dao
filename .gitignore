@@ -5,7 +5,9 @@ out.json
 .idea
 .vscode
 node_modules
-lib
-docs
-crates
+lib/
+docs/
+crates/
 foundry.toml
+crates/
+cache/

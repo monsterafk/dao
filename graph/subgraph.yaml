@@ -1,0 +1,27 @@
+specVersion: 0.0.5
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: Evnt
+    network: sepolia
+    source:
+      address: "0xf72232D25CE7D5cd218fB971ad25649f874132DA"
+      abi: Evnt
+      startBlock: 0
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Catch
+        - Hide
+      abis:
+        - name: Evnt
+          file: ./abis/Evnt.json
+      eventHandlers:
+        - event: Catch(uint256)
+          handler: handleCatch
+        - event: Hide(string)
+          handler: handleHide
+      file: ./src/evnt.ts

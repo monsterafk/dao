@@ -11,3 +11,10 @@ crates/
 foundry.toml
 crates/
 cache/
+.env
+testdata/
+.cargo
+.github
+Dockerfile
+CHANGELOG.md
+CONTRIBUTING.md

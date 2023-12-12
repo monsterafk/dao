@@ -4,10 +4,10 @@ out = 'out'
 libs = ['lib']
 
 
-offline = false 
+offline = true 
 auto_detect_solc = true
 ignored_error_codes = [
     3420
 ]
-solc_version = "0.8.19"
+solc_version = "0.8.20"
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config

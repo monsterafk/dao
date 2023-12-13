@@ -1,4 +1,10 @@
 .DS_STORE
+Dockerfile
+CHANGELOG.md
+CONTRIBUTING.md
+graph/
+broadcast
+deny.toml
 /target
 out/
 out.json
@@ -20,3 +26,6 @@ CHANGELOG.md
 CONTRIBUTING.md
 graph/
 broadcast
+foundry.toml
+LICENSE-APACHE
+LICENSE-MIT

@@ -191,8 +191,4 @@ contract DaoTest is Test {
 contract Target {
     receive() external payable {}
     fallback() external payable {}
-
-    function get() external pure returns(uint8) {
-        return 2;
-    }
 }

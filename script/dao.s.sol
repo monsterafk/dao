@@ -43,25 +43,3 @@ contract DaoDeploy is Script{
     }
     
 }
-
-import "../src/tryhraph.sol";
-
-contract Depl is Script{
-    Evnt evens;
-
-    function run() external {
-        uint pk = vm.envUint("PRIVATE_KEY");
-        string memory rpc = vm.envString("RPC");
-
-        vm.startBroadcast(pk);
-
-        vm.createSelectFork(rpc);
-
-        evens = new Evnt();
-
-
-        vm.stopBroadcast();
-    }
-    
-}
-

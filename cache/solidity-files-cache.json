@@ -2949,8 +2949,8 @@
       }
     },
     "script/dao.s.sol": {
-      "lastModificationDate": 1702400720821,
-      "contentHash": "7cdf5f97208e34755e9af336d2e0d7a9",
+      "lastModificationDate": 1702410404971,
+      "contentHash": "2ef4ef2f65618685e5df15a1d03ad65d",
       "sourceName": "script/dao.s.sol",
       "solcConfig": {
         "settings": {
@@ -3042,16 +3042,12 @@
         "node_modules/@openzeppelin/contracts/utils/structs/DoubleEndedQueue.sol",
         "node_modules/@openzeppelin/contracts/utils/types/Time.sol",
         "src\\DaoToken.sol",
-        "src\\PazitoDao.sol",
-        "src\\tryhraph.sol"
+        "src\\PazitoDao.sol"
       ],
       "versionRequirement": "^0.8.20",
       "artifacts": {
         "DaoDeploy": {
           "0.8.20+commit.a1b79de6.Windows.msvc": "dao.s.sol\\DaoDeploy.json"
-        },
-        "Depl": {
-          "0.8.20+commit.a1b79de6.Windows.msvc": "dao.s.sol\\Depl.json"
         }
       }
     },
@@ -3197,46 +3193,6 @@
       "artifacts": {
         "PazitoDao": {
           "0.8.20+commit.a1b79de6.Windows.msvc": "PazitoDao.sol\\PazitoDao.json"
-        }
-      }
-    },
-    "src/tryhraph.sol": {
-      "lastModificationDate": 1702400242988,
-      "contentHash": "eee95df8789cdff225285860ce5002ed",
-      "sourceName": "src/tryhraph.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "bytecodeHash": "ipfs",
-            "appendCBOR": true
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ]
-            }
-          },
-          "evmVersion": "london",
-          "libraries": {}
-        }
-      },
-      "imports": [],
-      "versionRequirement": "^0.8.20",
-      "artifacts": {
-        "Evnt": {
-          "0.8.20+commit.a1b79de6.Windows.msvc": "tryhraph.sol\\Evnt.json"
         }
       }
     },

@@ -15,6 +15,9 @@ cache/
 testdata/
 .cargo
 .github
+package.json
+package-lock.json
+remappings.txt
 Dockerfile
 CHANGELOG.md
 CONTRIBUTING.md

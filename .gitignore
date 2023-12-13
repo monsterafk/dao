@@ -3,6 +3,11 @@ lib/
 docs/
 crates/
 foundryup/
+.gitattributes
+.git-blame-ignore-revs
+.dockerignore
+rustfmt.toml
+.gitmodules
 foundry.toml
 crates/
 cache/

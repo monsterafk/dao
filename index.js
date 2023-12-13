@@ -1,6 +1,6 @@
 const ethers = require("ethers")
 
-const abi = require("./out/tryhraph.sol/Evnt.json").abi
+const abi = require("./out/PazitoDao.sol/PazitoDao.json").abi
 require("dotenv").config
 
 const rpc = process.env.RPC
